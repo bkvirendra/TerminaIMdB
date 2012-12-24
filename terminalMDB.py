@@ -1,9 +1,7 @@
 #!/usr/bin/python
 
-import urllib
-import argparse
+import urllib, argparse, sys
 from xml.etree import ElementTree
-import sys
 
 def retrieveMovie (title):
 	title=urllib.quote(title.encode("utf8"))
